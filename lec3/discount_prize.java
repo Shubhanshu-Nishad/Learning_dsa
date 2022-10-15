@@ -1,4 +1,4 @@
-package lec3;
+package Lec3;
 import java.util.*;
 public class discount_prize {
 
