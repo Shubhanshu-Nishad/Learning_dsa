@@ -29,8 +29,8 @@ public class leap_else_if {
 //			else if(y>50) {
 //				System.out.println("C grades");
 //		}else {
-//			// no block execute when all conditions all false
-//			System.out.println("Fail");
+//			// no block execute when all conditions all 
+//			System.out.println("Fail")i;
 //		}
 	}
 

@@ -8,9 +8,11 @@ public class Leap_year {
 		int y = scanner.nextInt();
 		if(y%4==0) {
 			//1st yes block
-	}else {
+			System.out.println("Lp");
+		}else {
 		// 1st no block
 		System.out.println("NLY");
+		}
 	}
 
 }
