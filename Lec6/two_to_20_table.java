@@ -16,7 +16,7 @@ public class two_to_20_table {
 			}
 			System.out.println();
 			//operation
-			starting++;
+			starting++; // this is for increment
 		}
 
 	}
