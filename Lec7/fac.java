@@ -2,8 +2,6 @@ package Lec7;
 
 import java.util.Scanner;
 
-import Lec6;
-
 public class fac {
 
 	public static void main(String[] args) {
