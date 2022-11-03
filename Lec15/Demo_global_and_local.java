@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Demo_global_and_local {
 
-	static int val; // gloabl 
+	static int val; // global 
 	
 	
 	public static void main(String[] args) {
