@@ -1,21 +1,20 @@
-package Lec18;
+package Lec17;
 
-public class Linear_search {
-
+public class index_of_target_element {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] arr = {3,5,89,34,23,78,91}; 
-		int target = 89;
-		System.out.println(Linear_search(arr,target));
+		int target = 891;
+		System.out.println(Linear_search_index(arr,target));
 		
 	}
 
-	public static boolean Linear_search(int[] arr, int target) {
+	public static int Linear_search_index(int[] arr, int target) {
 		// TODO Auto-generated method stub
 		for (int i = 0; i < arr.length; i++) {
 			if(arr[i]==target)
-				return true;
+				return i;
 		}
-		return false;
+		return -1;
 	}
 }

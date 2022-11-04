@@ -1,28 +1,34 @@
 package Lec18;
 
-public class reverse_range {
+public class Bubble_sort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr = { 1,2,3,4,5,6}; // arr = {6,5,4,3,2,1}
+		int[] arr = {7,6,5,4,3,2,1};
+		int k = 11;
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i]+" ");
 		}
-		System.out.println();
-		reverse_range(arr,1,arr.length-2);
+		bubble_sort(arr);
 		System.out.println();
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i]+" ");
 		}
 	}
 
-	public static void reverse_range(int[] arr,int si,int ei) {
+	public static void bubble_sort(int[] arr) {
 		// TODO Auto-generated method stub
-		while(si<=ei) {
-			swap(arr, si, ei);
-			si++;
-			ei--;
+		for (int turn= 0; turn <arr.length; turn++) {
+			for (int i = 1; i < arr.length-turn; i++) {
+				if(arr[i-1]>arr[i]) {
+					swap(arr, i-1, i);
+				}
+				
+			}
+			System.out.println();
+			for (int i = 0; i < arr.length; i++) {
+				System.out.print(arr[i]+" ");
+			}
 		}
-		
 	}
 	
 	public static void swap(int[ ] arr,int i,int j) {

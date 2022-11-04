@@ -1,4 +1,4 @@
-package Lec17;
+package Lec16;
 
 public class swaping_of_element_of_array {
 

@@ -1,4 +1,4 @@
-package Lec18;
+package Lec17;
 
 public class reverse_an_array {
 

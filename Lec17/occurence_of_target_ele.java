@@ -1,4 +1,4 @@
-package Lec18;
+package Lec17;
 
 public class occurence_of_target_ele {
 	public static void main(String[] args) {

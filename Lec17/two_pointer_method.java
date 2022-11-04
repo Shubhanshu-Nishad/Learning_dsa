@@ -1,4 +1,4 @@
-package Lec18;
+package Lec17;
 
 public class two_pointer_method {
 	public static void main(String[] args) {
