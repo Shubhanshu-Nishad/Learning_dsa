@@ -8,6 +8,7 @@ public class Book_Allocation {
 		int nos = 2;
 		int page = BookAllocation(pages,nos);
 		System.out.print(page);
+		
 	}
 	
 	public static int BookAllocation(int[] pages,int nos) {
