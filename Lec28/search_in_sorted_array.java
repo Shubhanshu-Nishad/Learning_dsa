@@ -9,7 +9,7 @@ public class search_in_sorted_array {
 				{10,11,16,20},
 				{23,30,34,60},
 				};
-		int x = 0 ;
+		int x = 34 ;
 		System.out.println(search2darray(arr,x));
 	}
 

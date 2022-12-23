@@ -11,7 +11,7 @@ public class demo_3 {
 		
 		str2 = str2 +"ji";
 		
-		if(str==str2)
+		if(str==str1)
 			System.out.println("equal");
 		else 
 			System.out.println("Not equal ");
