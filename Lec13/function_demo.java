@@ -24,7 +24,7 @@ public class function_demo {
 	}
 	public static void PrinterName() {
 		// TODO Auto-generated method stub
-		System.out.println("Sneha Rai");
+		System.out.println("Ghost");
 		return;
 		
 	}
